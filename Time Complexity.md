@@ -107,7 +107,7 @@ cout << count << endl;
 
 ## How many operations are we allowed to do?
 
-- There is no exact number, but a good rule of thumb is that C++ can compute $~10^8$, or 100 million operations per second
+- There is no exact number, but a good rule of thumb is that C++ can compute $\sim 10^8$, or 100 million operations per second
 - For example, if you are solving a problem where $N = 10^5$, then a solution with time complexity $O(N)$ would be acceptable, but a solution with time complexity $O(N^2)$ would likely be too slow
 
 ## Beginner's trap: constants still matter!
