@@ -47,7 +47,6 @@
     - Try to see why!
   - Are there any other cases?
     - Keep scribbling different random configurations on your paper until you have convinced yourself that these are the only cases.
-
 - **Great, but what about two cows?**
   - We can break this into two cases: place both cows in the same gap, or place both cows in separate gaps
   - Same gap: it makes sense to break the gap into "thirds":
@@ -56,8 +55,9 @@
   - `1000001000001001001` -> `1001001001001001001`
   - What about gaps on the end?
   - Answer: `00000001` -> `10010001` or `10001001`
-
 - Are we done?
+  - All zeros!
+  - `0000000` -> `1000001`
 
 ## Step 3: Figure out the implementation details.
 
